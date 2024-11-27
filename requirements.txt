@@ -1,0 +1,6 @@
+beautifulsoup4
+googlesearch-python
+scrapy
+twisted
+rubpy
+requests
