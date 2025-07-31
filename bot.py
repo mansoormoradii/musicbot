@@ -46,8 +46,8 @@ from scrapy.utils.log import configure_logging
 
 # پیکربندی ربات
 bot = Client(name='Ai_bot')
-guid =[" گوید گپ شما "]
-guid_music = "گوید گپ شما"
+guid =["g0Fqo6o01a10011cfcc13a9adf498e0c"]
+guid_music = "g0Fqo6o01a10011cfcc13a9adf498e0c"
 active_voice_chats = {}
 url = 'https://kashoob.com/playlist/9GOj9/%D9%85%D8%AF%D8%A7%D8%AD%DB%8C-%D9%87%D8%A7%DB%8C-%D8%AD%D9%85%D8%A7%D8%B3%DB%8C-%D9%85%D8%A8%D8%A7%D8%B1%D8%B2%D9%87-%D8%A8%D8%A7-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%DB%8C%D9%84'
 
@@ -171,8 +171,8 @@ async def manage_voice_chat(action: str, group_guid: str, user_guid: str, update
     
     Args:
         action (str): "start" برای ایجاد یا "leave" برای خروج.
-        group_guid (str): آیدی گروه.
-        user_guid (str): آیدی کاربر ارسال‌کننده دستور.
+        group_guid (g0Fqo6o01a10011cfcc13a9adf498e0c): آیدی گروه.
+        user_guid (@Sodabbbbb1370): آیدی کاربر ارسال‌کننده دستور.
         update (Updates): آبجکت آپدیت برای ارسال پیام پاسخ.
     """
     try:
